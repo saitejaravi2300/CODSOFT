@@ -76,7 +76,7 @@ def clear_entries():
     email_entry.delete(0, tk.END)
     address_entry.delete(0, tk.END)
 
-# UI Elements
+
 name_label = tk.Label(root, text="Name:")
 name_label.grid(row=0, column=0, sticky='e')
 name_entry = tk.Entry(root)
